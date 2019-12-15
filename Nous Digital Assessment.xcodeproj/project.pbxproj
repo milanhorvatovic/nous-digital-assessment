@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D4EAA5F6D7B0434765AD4B4 /* Pods_Nous_Digital_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D88C6BB02EB6D9761E8A381 /* Pods_Nous_Digital_Assessment.framework */; };
+		F42D4ADD23A66D4A00C55527 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D4ADC23A66D4A00C55527 /* Predicate.swift */; };
 		F44286BC23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */; };
 		F44286C723A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286C623A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift */; };
 		F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DB23A61B2300F59E8C /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 		26D72E35AE6010C57CF1E78B /* Pods-Nous Digital Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nous Digital Assessment.release.xcconfig"; path = "Target Support Files/Pods-Nous Digital Assessment/Pods-Nous Digital Assessment.release.xcconfig"; sourceTree = "<group>"; };
 		470D81633B42A669CAE68A06 /* Pods-Nous Digital Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nous Digital Assessment.debug.xcconfig"; path = "Target Support Files/Pods-Nous Digital Assessment/Pods-Nous Digital Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 		8D88C6BB02EB6D9761E8A381 /* Pods_Nous_Digital_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nous_Digital_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42D4ADC23A66D4A00C55527 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
 		F44286A123A6196C00F59E8C /* Nous Digital Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nous Digital Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44286B723A6196E00F59E8C /* Nous Digital AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nous Digital AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nous_Digital_AssessmentTests.swift; sourceTree = "<group>"; };
@@ -109,6 +111,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F42D4ADB23A66D4200C55527 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F42D4ADC23A66D4A00C55527 /* Predicate.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		F442869823A6196C00F59E8C = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,7 @@
 		F44286A323A6196C00F59E8C /* Nous Digital Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				F42D4ADB23A66D4200C55527 /* Foundation */,
 				F44286D923A61B2300F59E8C /* Application */,
 				F491FE2F23A62D6E008D98F8 /* Model */,
 				F491FE3923A6431E008D98F8 /* Services */,
@@ -406,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42D4ADD23A66D4A00C55527 /* Predicate.swift in Sources */,
 				F491FE3E23A6436C008D98F8 /* Error.swift in Sources */,
 				F491FE3123A62DA6008D98F8 /* Model.swift in Sources */,
 				F491FE3623A62DE6008D98F8 /* ModelServiceItem.swift in Sources */,
