@@ -14,6 +14,10 @@
 		F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DC23A61B2300F59E8C /* SceneDelegate.swift */; };
 		F461589E23A61CE30002114D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F461589B23A61CE30002114D /* Assets.xcassets */; };
 		F461589F23A61CE30002114D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F461589C23A61CE30002114D /* LaunchScreen.storyboard */; };
+		F491FE3123A62DA6008D98F8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3023A62DA6008D98F8 /* Model.swift */; };
+		F491FE3323A62DC7008D98F8 /* ModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3223A62DC7008D98F8 /* ModelService.swift */; };
+		F491FE3623A62DE6008D98F8 /* ModelServiceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3523A62DE6008D98F8 /* ModelServiceItem.swift */; };
+		F491FE3823A6334C008D98F8 /* ModelServiceItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3723A6334C008D98F8 /* ModelServiceItems.swift */; };
 		F491FE3E23A6436C008D98F8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3D23A6436C008D98F8 /* Error.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,10 @@
 		F44286DC23A61B2300F59E8C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F461589B23A61CE30002114D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F461589D23A61CE30002114D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F491FE3023A62DA6008D98F8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F491FE3223A62DC7008D98F8 /* ModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelService.swift; sourceTree = "<group>"; };
+		F491FE3523A62DE6008D98F8 /* ModelServiceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelServiceItem.swift; sourceTree = "<group>"; };
+		F491FE3723A6334C008D98F8 /* ModelServiceItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelServiceItems.swift; sourceTree = "<group>"; };
 		F491FE3D23A6436C008D98F8 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +132,7 @@
 			children = (
 				F44286D923A61B2300F59E8C /* Application */,
 				F491FE2F23A62D6E008D98F8 /* Model */,
+				F491FE3923A6431E008D98F8 /* Services */,
 				F461589A23A61CE30002114D /* Resources */,
 				F44286D623A61AF500F59E8C /* Supporting files */,
 			);
@@ -185,9 +194,21 @@
 		F491FE2F23A62D6E008D98F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F491FE3023A62DA6008D98F8 /* Model.swift */,
 				F491FE3C23A64360008D98F8 /* Error */,
+				F491FE3423A62DD8008D98F8 /* Service */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F491FE3423A62DD8008D98F8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F491FE3223A62DC7008D98F8 /* ModelService.swift */,
+				F491FE3523A62DE6008D98F8 /* ModelServiceItem.swift */,
+				F491FE3723A6334C008D98F8 /* ModelServiceItems.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		F491FE3C23A64360008D98F8 /* Error */ = {
@@ -373,8 +394,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F491FE3E23A6436C008D98F8 /* Error.swift in Sources */,
+				F491FE3123A62DA6008D98F8 /* Model.swift in Sources */,
+				F491FE3623A62DE6008D98F8 /* ModelServiceItem.swift in Sources */,
 				F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */,
 				F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */,
+				F491FE3823A6334C008D98F8 /* ModelServiceItems.swift in Sources */,
+				F491FE3323A62DC7008D98F8 /* ModelService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
