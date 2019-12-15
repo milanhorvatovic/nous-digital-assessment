@@ -15,7 +15,10 @@
 		F44286C723A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286C623A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift */; };
 		F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DB23A61B2300F59E8C /* AppDelegate.swift */; };
 		F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DC23A61B2300F59E8C /* SceneDelegate.swift */; };
+		F4593D6123A6A34900BE69F9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4593D6023A6A34900BE69F9 /* ListViewController.swift */; };
 		F4593D6323A6A42200BE69F9 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4593D6223A6A42200BE69F9 /* UIViewController+Rx.swift */; };
+		F4593D6523A6AA7E00BE69F9 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4593D6423A6AA7E00BE69F9 /* ListModel.swift */; };
+		F4593D6723A6AEDA00BE69F9 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4593D6623A6AEDA00BE69F9 /* ListCell.swift */; };
 		F4593D6923A6C02000BE69F9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4593D6823A6C02000BE69F9 /* UIColor.swift */; };
 		F461589E23A61CE30002114D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F461589B23A61CE30002114D /* Assets.xcassets */; };
 		F461589F23A61CE30002114D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F461589C23A61CE30002114D /* LaunchScreen.storyboard */; };
@@ -62,7 +65,10 @@
 		F44286D723A61AF500F59E8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44286DB23A61B2300F59E8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44286DC23A61B2300F59E8C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4593D6023A6A34900BE69F9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F4593D6223A6A42200BE69F9 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
+		F4593D6423A6AA7E00BE69F9 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		F4593D6623A6AEDA00BE69F9 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		F4593D6823A6C02000BE69F9 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		F461589B23A61CE30002114D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F461589D23A61CE30002114D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,7 +128,10 @@
 		F42D4AD823A657DA00C55527 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				F4593D6423A6AA7E00BE69F9 /* ListModel.swift */,
 				F42D4AD923A657F000C55527 /* ListViewModel.swift */,
+				F4593D6023A6A34900BE69F9 /* ListViewController.swift */,
+				F4593D6623A6AEDA00BE69F9 /* ListCell.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -442,14 +451,17 @@
 				F491FE3E23A6436C008D98F8 /* Error.swift in Sources */,
 				F491FE3123A62DA6008D98F8 /* Model.swift in Sources */,
 				F491FE3623A62DE6008D98F8 /* ModelServiceItem.swift in Sources */,
+				F4593D6723A6AEDA00BE69F9 /* ListCell.swift in Sources */,
 				F4593D6923A6C02000BE69F9 /* UIColor.swift in Sources */,
 				F491FE3B23A6432B008D98F8 /* DataLoader.swift in Sources */,
 				F4593D6323A6A42200BE69F9 /* UIViewController+Rx.swift in Sources */,
 				F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */,
 				F491FE4023A645F4008D98F8 /* NetworkEngine.swift in Sources */,
+				F4593D6523A6AA7E00BE69F9 /* ListModel.swift in Sources */,
 				F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */,
 				F491FE3823A6334C008D98F8 /* ModelServiceItems.swift in Sources */,
 				F42D4AE323A673FF00C55527 /* ObservableType+Action.swift in Sources */,
+				F4593D6123A6A34900BE69F9 /* ListViewController.swift in Sources */,
 				F491FE3323A62DC7008D98F8 /* ModelService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
