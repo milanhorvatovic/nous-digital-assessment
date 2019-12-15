@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4EAA5F6D7B0434765AD4B4 /* Pods_Nous_Digital_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D88C6BB02EB6D9761E8A381 /* Pods_Nous_Digital_Assessment.framework */; };
 		F44286BC23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */; };
 		F44286C723A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286C623A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift */; };
 		F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DB23A61B2300F59E8C /* AppDelegate.swift */; };
@@ -33,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26D72E35AE6010C57CF1E78B /* Pods-Nous Digital Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nous Digital Assessment.release.xcconfig"; path = "Target Support Files/Pods-Nous Digital Assessment/Pods-Nous Digital Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		470D81633B42A669CAE68A06 /* Pods-Nous Digital Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nous Digital Assessment.debug.xcconfig"; path = "Target Support Files/Pods-Nous Digital Assessment/Pods-Nous Digital Assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		8D88C6BB02EB6D9761E8A381 /* Pods_Nous_Digital_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nous_Digital_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44286A123A6196C00F59E8C /* Nous Digital Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nous Digital Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44286B723A6196E00F59E8C /* Nous Digital AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nous Digital AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nous_Digital_AssessmentTests.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4EAA5F6D7B0434765AD4B4 /* Pods_Nous_Digital_Assessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10CE705792FEBBB0127B390D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				470D81633B42A669CAE68A06 /* Pods-Nous Digital Assessment.debug.xcconfig */,
+				26D72E35AE6010C57CF1E78B /* Pods-Nous Digital Assessment.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		508366FE077D9DE6721BE9CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C6BB02EB6D9761E8A381 /* Pods_Nous_Digital_Assessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F442869823A6196C00F59E8C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +102,8 @@
 				F44286BA23A6196E00F59E8C /* Nous Digital AssessmentTests */,
 				F44286C523A6196E00F59E8C /* Nous Digital AssessmentUITests */,
 				F44286A223A6196C00F59E8C /* Products */,
+				10CE705792FEBBB0127B390D /* Pods */,
+				508366FE077D9DE6721BE9CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F44286CB23A6196E00F59E8C /* Build configuration list for PBXNativeTarget "Nous Digital Assessment" */;
 			buildPhases = (
+				5666E4511206550D4BFA96A1 /* [CP] Check Pods Manifest.lock */,
 				F442869D23A6196C00F59E8C /* Sources */,
 				F442869E23A6196C00F59E8C /* Frameworks */,
 				F442869F23A6196C00F59E8C /* Resources */,
+				F07022954EC63B5ED8C38B07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,6 +305,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5666E4511206550D4BFA96A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nous Digital Assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07022954EC63B5ED8C38B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nous Digital Assessment/Pods-Nous Digital Assessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nous Digital Assessment/Pods-Nous Digital Assessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nous Digital Assessment/Pods-Nous Digital Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F442869D23A6196C00F59E8C /* Sources */ = {
@@ -455,6 +524,7 @@
 		};
 		F44286CC23A6196E00F59E8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470D81633B42A669CAE68A06 /* Pods-Nous Digital Assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +541,7 @@
 		};
 		F44286CD23A6196E00F59E8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D72E35AE6010C57CF1E78B /* Pods-Nous Digital Assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
