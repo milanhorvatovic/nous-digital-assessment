@@ -8,6 +8,8 @@
 
 import UIKit
 
+import Alamofire
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -17,7 +19,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        do {
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let dataLoader = try DataLoader(base: "https://cloud.nousdigital.net",
+                                            engine: SessionManager(configuration: URLSessionConfiguration.default))
+            let viewModel = ListViewModel(dataLoader: dataLoader)
+            let viewController = ListViewController.init(viewModel: viewModel)
+            self.window?.rootViewController = viewController
+            self.window?.makeKeyAndVisible()
+            self.window?.windowScene = windowScene
+        }
+        catch {
+            fatalError(error.localizedDescription)
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
