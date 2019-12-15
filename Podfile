@@ -73,8 +73,7 @@ def supplementary_pods
   
 end
 
-target 'Nous Digital Assessment' do
-    project 'Nous Digital Assessment.xcodeproj'
+def all_pods 
 
     core_pods
     rx_pods
@@ -82,5 +81,28 @@ target 'Nous Digital Assessment' do
     network_pods
     resources_pods
     supplementary_pods
+
+end
+
+def tests_pods
+    
+    #pod 'RxTest', '~> 5.0'
+    pod 'RxTest', '5.0.1'
+    #pod 'RxTest'
+
+end
+
+target 'Nous Digital Assessment' do
+    project 'Nous Digital Assessment.xcodeproj'
+
+    all_pods
+
+end
+
+target 'Nous Digital AssessmentTests' do
+    project 'Nous Digital Assessment.xcodeproj'
+
+    all_pods
+    tests_pods
 
 end
