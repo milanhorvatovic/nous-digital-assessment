@@ -10,10 +10,13 @@
 		1D4EAA5F6D7B0434765AD4B4 /* Pods_Nous_Digital_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D88C6BB02EB6D9761E8A381 /* Pods_Nous_Digital_Assessment.framework */; };
 		F42D4ADA23A657F000C55527 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D4AD923A657F000C55527 /* ListViewModel.swift */; };
 		F42D4ADD23A66D4A00C55527 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D4ADC23A66D4A00C55527 /* Predicate.swift */; };
+		F42D4AE323A673FF00C55527 /* ObservableType+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D4AE223A673FF00C55527 /* ObservableType+Action.swift */; };
 		F44286BC23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */; };
 		F44286C723A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286C623A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift */; };
 		F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DB23A61B2300F59E8C /* AppDelegate.swift */; };
 		F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DC23A61B2300F59E8C /* SceneDelegate.swift */; };
+		F4593D6323A6A42200BE69F9 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4593D6223A6A42200BE69F9 /* UIViewController+Rx.swift */; };
+		F4593D6923A6C02000BE69F9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4593D6823A6C02000BE69F9 /* UIColor.swift */; };
 		F461589E23A61CE30002114D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F461589B23A61CE30002114D /* Assets.xcassets */; };
 		F461589F23A61CE30002114D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F461589C23A61CE30002114D /* LaunchScreen.storyboard */; };
 		F491FE3123A62DA6008D98F8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3023A62DA6008D98F8 /* Model.swift */; };
@@ -48,6 +51,7 @@
 		8D88C6BB02EB6D9761E8A381 /* Pods_Nous_Digital_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nous_Digital_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42D4AD923A657F000C55527 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		F42D4ADC23A66D4A00C55527 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
+		F42D4AE223A673FF00C55527 /* ObservableType+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Action.swift"; sourceTree = "<group>"; };
 		F44286A123A6196C00F59E8C /* Nous Digital Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nous Digital Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44286B723A6196E00F59E8C /* Nous Digital AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nous Digital AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nous_Digital_AssessmentTests.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		F44286D723A61AF500F59E8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44286DB23A61B2300F59E8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44286DC23A61B2300F59E8C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4593D6223A6A42200BE69F9 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
+		F4593D6823A6C02000BE69F9 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		F461589B23A61CE30002114D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F461589D23A61CE30002114D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F491FE3023A62DA6008D98F8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -125,6 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				F42D4ADC23A66D4A00C55527 /* Predicate.swift */,
+				F42D4AE223A673FF00C55527 /* ObservableType+Action.swift */,
+				F4593D6223A6A42200BE69F9 /* UIViewController+Rx.swift */,
+				F4593D6823A6C02000BE69F9 /* UIColor.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -433,11 +442,14 @@
 				F491FE3E23A6436C008D98F8 /* Error.swift in Sources */,
 				F491FE3123A62DA6008D98F8 /* Model.swift in Sources */,
 				F491FE3623A62DE6008D98F8 /* ModelServiceItem.swift in Sources */,
+				F4593D6923A6C02000BE69F9 /* UIColor.swift in Sources */,
 				F491FE3B23A6432B008D98F8 /* DataLoader.swift in Sources */,
+				F4593D6323A6A42200BE69F9 /* UIViewController+Rx.swift in Sources */,
 				F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */,
 				F491FE4023A645F4008D98F8 /* NetworkEngine.swift in Sources */,
 				F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */,
 				F491FE3823A6334C008D98F8 /* ModelServiceItems.swift in Sources */,
+				F42D4AE323A673FF00C55527 /* ObservableType+Action.swift in Sources */,
 				F491FE3323A62DC7008D98F8 /* ModelService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
