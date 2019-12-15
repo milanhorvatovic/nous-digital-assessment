@@ -19,6 +19,7 @@
 		F491FE3623A62DE6008D98F8 /* ModelServiceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3523A62DE6008D98F8 /* ModelServiceItem.swift */; };
 		F491FE3823A6334C008D98F8 /* ModelServiceItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3723A6334C008D98F8 /* ModelServiceItems.swift */; };
 		F491FE3E23A6436C008D98F8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3D23A6436C008D98F8 /* Error.swift */; };
+		F491FE4023A645F4008D98F8 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F491FE3F23A645F4008D98F8 /* NetworkEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F491FE3523A62DE6008D98F8 /* ModelServiceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelServiceItem.swift; sourceTree = "<group>"; };
 		F491FE3723A6334C008D98F8 /* ModelServiceItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelServiceItems.swift; sourceTree = "<group>"; };
 		F491FE3D23A6436C008D98F8 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F491FE3F23A645F4008D98F8 /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,14 @@
 				F491FE3723A6334C008D98F8 /* ModelServiceItems.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		F491FE3923A6431E008D98F8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F491FE3F23A645F4008D98F8 /* NetworkEngine.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		F491FE3C23A64360008D98F8 /* Error */ = {
@@ -397,6 +407,7 @@
 				F491FE3123A62DA6008D98F8 /* Model.swift in Sources */,
 				F491FE3623A62DE6008D98F8 /* ModelServiceItem.swift in Sources */,
 				F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */,
+				F491FE4023A645F4008D98F8 /* NetworkEngine.swift in Sources */,
 				F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */,
 				F491FE3823A6334C008D98F8 /* ModelServiceItems.swift in Sources */,
 				F491FE3323A62DC7008D98F8 /* ModelService.swift in Sources */,
