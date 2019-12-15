@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44286BC23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */; };
+		F44286C723A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286C623A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift */; };
+		F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DB23A61B2300F59E8C /* AppDelegate.swift */; };
+		F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44286DC23A61B2300F59E8C /* SceneDelegate.swift */; };
+		F461589E23A61CE30002114D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F461589B23A61CE30002114D /* Assets.xcassets */; };
+		F461589F23A61CE30002114D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F461589C23A61CE30002114D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44286B823A6196E00F59E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F442869923A6196C00F59E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44286A023A6196C00F59E8C;
+			remoteInfo = "Nous Digital Assessment";
+		};
+		F44286C323A6196E00F59E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F442869923A6196C00F59E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44286A023A6196C00F59E8C;
+			remoteInfo = "Nous Digital Assessment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F44286A123A6196C00F59E8C /* Nous Digital Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nous Digital Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44286B723A6196E00F59E8C /* Nous Digital AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nous Digital AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nous_Digital_AssessmentTests.swift; sourceTree = "<group>"; };
+		F44286BD23A6196E00F59E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44286C223A6196E00F59E8C /* Nous Digital AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nous Digital AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44286C623A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nous_Digital_AssessmentUITests.swift; sourceTree = "<group>"; };
+		F44286C823A6196E00F59E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44286D723A61AF500F59E8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44286DB23A61B2300F59E8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F44286DC23A61B2300F59E8C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F461589B23A61CE30002114D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F461589D23A61CE30002114D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F442869E23A6196C00F59E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44286B423A6196E00F59E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44286BF23A6196E00F59E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F442869823A6196C00F59E8C = {
+			isa = PBXGroup;
+			children = (
+				F44286A323A6196C00F59E8C /* Nous Digital Assessment */,
+				F44286BA23A6196E00F59E8C /* Nous Digital AssessmentTests */,
+				F44286C523A6196E00F59E8C /* Nous Digital AssessmentUITests */,
+				F44286A223A6196C00F59E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44286A223A6196C00F59E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44286A123A6196C00F59E8C /* Nous Digital Assessment.app */,
+				F44286B723A6196E00F59E8C /* Nous Digital AssessmentTests.xctest */,
+				F44286C223A6196E00F59E8C /* Nous Digital AssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44286A323A6196C00F59E8C /* Nous Digital Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				F44286D923A61B2300F59E8C /* Application */,
+				F461589A23A61CE30002114D /* Resources */,
+				F44286D623A61AF500F59E8C /* Supporting files */,
+			);
+			path = "Nous Digital Assessment";
+			sourceTree = "<group>";
+		};
+		F44286BA23A6196E00F59E8C /* Nous Digital AssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44286BB23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift */,
+				F44286BD23A6196E00F59E8C /* Info.plist */,
+			);
+			path = "Nous Digital AssessmentTests";
+			sourceTree = "<group>";
+		};
+		F44286C523A6196E00F59E8C /* Nous Digital AssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44286C623A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift */,
+				F44286C823A6196E00F59E8C /* Info.plist */,
+			);
+			path = "Nous Digital AssessmentUITests";
+			sourceTree = "<group>";
+		};
+		F44286D623A61AF500F59E8C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				F44286D723A61AF500F59E8C /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		F44286D923A61B2300F59E8C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F44286DA23A61B2300F59E8C /* Main */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F44286DA23A61B2300F59E8C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F44286DB23A61B2300F59E8C /* AppDelegate.swift */,
+				F44286DC23A61B2300F59E8C /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F461589A23A61CE30002114D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F461589B23A61CE30002114D /* Assets.xcassets */,
+				F461589C23A61CE30002114D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44286A023A6196C00F59E8C /* Nous Digital Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44286CB23A6196E00F59E8C /* Build configuration list for PBXNativeTarget "Nous Digital Assessment" */;
+			buildPhases = (
+				F442869D23A6196C00F59E8C /* Sources */,
+				F442869E23A6196C00F59E8C /* Frameworks */,
+				F442869F23A6196C00F59E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nous Digital Assessment";
+			productName = "Nous Digital Assessment";
+			productReference = F44286A123A6196C00F59E8C /* Nous Digital Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44286B623A6196E00F59E8C /* Nous Digital AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44286CE23A6196E00F59E8C /* Build configuration list for PBXNativeTarget "Nous Digital AssessmentTests" */;
+			buildPhases = (
+				F44286B323A6196E00F59E8C /* Sources */,
+				F44286B423A6196E00F59E8C /* Frameworks */,
+				F44286B523A6196E00F59E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44286B923A6196E00F59E8C /* PBXTargetDependency */,
+			);
+			name = "Nous Digital AssessmentTests";
+			productName = "Nous Digital AssessmentTests";
+			productReference = F44286B723A6196E00F59E8C /* Nous Digital AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44286C123A6196E00F59E8C /* Nous Digital AssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44286D123A6196E00F59E8C /* Build configuration list for PBXNativeTarget "Nous Digital AssessmentUITests" */;
+			buildPhases = (
+				F44286BE23A6196E00F59E8C /* Sources */,
+				F44286BF23A6196E00F59E8C /* Frameworks */,
+				F44286C023A6196E00F59E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44286C423A6196E00F59E8C /* PBXTargetDependency */,
+			);
+			name = "Nous Digital AssessmentUITests";
+			productName = "Nous Digital AssessmentUITests";
+			productReference = F44286C223A6196E00F59E8C /* Nous Digital AssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F442869923A6196C00F59E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Milan Horvatovic";
+				TargetAttributes = {
+					F44286A023A6196C00F59E8C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					F44286B623A6196E00F59E8C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F44286A023A6196C00F59E8C;
+					};
+					F44286C123A6196E00F59E8C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F44286A023A6196C00F59E8C;
+					};
+				};
+			};
+			buildConfigurationList = F442869C23A6196C00F59E8C /* Build configuration list for PBXProject "Nous Digital Assessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F442869823A6196C00F59E8C;
+			productRefGroup = F44286A223A6196C00F59E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44286A023A6196C00F59E8C /* Nous Digital Assessment */,
+				F44286B623A6196E00F59E8C /* Nous Digital AssessmentTests */,
+				F44286C123A6196E00F59E8C /* Nous Digital AssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F442869F23A6196C00F59E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F461589E23A61CE30002114D /* Assets.xcassets in Resources */,
+				F461589F23A61CE30002114D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44286B523A6196E00F59E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44286C023A6196E00F59E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F442869D23A6196C00F59E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44286DE23A61B2300F59E8C /* SceneDelegate.swift in Sources */,
+				F44286DD23A61B2300F59E8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44286B323A6196E00F59E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44286BC23A6196E00F59E8C /* Nous_Digital_AssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44286BE23A6196E00F59E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44286C723A6196E00F59E8C /* Nous_Digital_AssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44286B923A6196E00F59E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44286A023A6196C00F59E8C /* Nous Digital Assessment */;
+			targetProxy = F44286B823A6196E00F59E8C /* PBXContainerItemProxy */;
+		};
+		F44286C423A6196E00F59E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44286A023A6196C00F59E8C /* Nous Digital Assessment */;
+			targetProxy = F44286C323A6196E00F59E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F461589C23A61CE30002114D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F461589D23A61CE30002114D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44286C923A6196E00F59E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F44286CA23A6196E00F59E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RELEASE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) RELEASE";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44286CC23A6196E00F59E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(PROJECT_NAME)/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanhorvatovic.nous-digital-assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44286CD23A6196E00F59E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(PROJECT_NAME)/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanhorvatovic.nous-digital-assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F44286CF23A6196E00F59E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nous Digital AssessmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanhorvatovic.Nous-Digital-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nous Digital Assessment.app/Nous Digital Assessment";
+			};
+			name = Debug;
+		};
+		F44286D023A6196E00F59E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nous Digital AssessmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanhorvatovic.Nous-Digital-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nous Digital Assessment.app/Nous Digital Assessment";
+			};
+			name = Release;
+		};
+		F44286D223A6196E00F59E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nous Digital AssessmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanhorvatovic.Nous-Digital-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nous Digital Assessment";
+			};
+			name = Debug;
+		};
+		F44286D323A6196E00F59E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nous Digital AssessmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milanhorvatovic.Nous-Digital-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nous Digital Assessment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F442869C23A6196C00F59E8C /* Build configuration list for PBXProject "Nous Digital Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44286C923A6196E00F59E8C /* Debug */,
+				F44286CA23A6196E00F59E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44286CB23A6196E00F59E8C /* Build configuration list for PBXNativeTarget "Nous Digital Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44286CC23A6196E00F59E8C /* Debug */,
+				F44286CD23A6196E00F59E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44286CE23A6196E00F59E8C /* Build configuration list for PBXNativeTarget "Nous Digital AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44286CF23A6196E00F59E8C /* Debug */,
+				F44286D023A6196E00F59E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44286D123A6196E00F59E8C /* Build configuration list for PBXNativeTarget "Nous Digital AssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44286D223A6196E00F59E8C /* Debug */,
+				F44286D323A6196E00F59E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F442869923A6196C00F59E8C /* Project object */;
+}
